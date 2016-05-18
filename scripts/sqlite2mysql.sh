@@ -19,7 +19,7 @@ SEAHUB_DB='seahub-db.sql'
 
 ########## ccnet
 seafile_path=$(pwd)
-if [ -f "${seafile_path}/ccnet/ccnet.conf" ]; then
+if [ -f "${seafile_path}/conf/ccnet.conf" ]; then
     USER_MGR_DB=${seafile_path}/ccnet/PeerMgr/usermgr.db
     GRP_MGR_DB=${seafile_path}/ccnet/GroupMgr/groupmgr.db
 else
